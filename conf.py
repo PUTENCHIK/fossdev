@@ -6,9 +6,9 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'toolchain'
-copyright = '2023, Artem Vesnin'
-author = 'Artem Vesnin'
+project = 'fossdev'
+copyright = '2024, Artem Vesnin, Maxim Olifirenko'
+author = 'Artem Vesnin, Maxim Olifirenko'
 release = '1.0'
 
 # -- General configuration ---------------------------------------------------
@@ -20,6 +20,7 @@ templates_path = ['_templates']
 exclude_patterns = ['projects/mtracker/*',
                     'README.md']
 
+#root_doc = 'index'
 language = 'ru'
 
 # -- Options for HTML output -------------------------------------------------
@@ -33,4 +34,3 @@ source_suffix = {
     '.txt': 'restructuredtext',
     '.md': 'markdown',
 }
-
